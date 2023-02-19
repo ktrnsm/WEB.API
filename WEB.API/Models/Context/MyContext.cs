@@ -18,5 +18,6 @@ namespace WEB.API.Models.Context
             Database.SetInitializer(new MyInit());
         }
         public DbSet<CardInfo> Cards { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
     }
 }
